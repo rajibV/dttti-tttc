@@ -1,0 +1,46 @@
+.nav-link{
+    transition: all linear 0.5s;
+    text-transform: capitalize;
+    border-radius: 10px;
+    margin: 20px;
+}
+.nav-link:hover{
+    color: rgb(255, 245, 245);
+    background-color: rgb(68, 61, 61);
+}
+.nav-item .nav-link.active{
+    color: rgb(255, 245, 245);
+    background-color: rgb(68, 61, 61);
+}
+.carousel-item img{
+    height: 450px;
+}
+.faq ul{
+    padding-left: 0px;
+    list-style-type: none;
+    
+
+}
+.faq ul li{
+    background: #000000;
+    border-radius: 10px;
+}
+.faq ul li a{  
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 8px;
+    padding: 5px 5px;
+    font-size: 15px;
+    font-family:cursive;
+    font-weight: 600;
+    border: 1 px solid white;
+    display: block;
+
+}
+.faq ul li:hover{
+    transition: all linear 0.5s;
+    color: #f0f0f0;
+    background: #4400ff;
+    border-radius: 10px;
+
+}
